@@ -1,9 +1,36 @@
 body {
     font-family: "Indie Flower";
-    
+    background-color: green;
 }
 
 p {
 
     font-size: 100px;
+}
+
+a {
+    font-family: "Indie Flower";
+    margin-left: 200px;
+    font-size: 200px;
+}
+
+nav a:link {
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+#Intro {
+display: flex;
+flex-direction: row;
+align-items: center;
+width: 100%;
+height: 100vh;
+background-color:  green;
+color: white;
+font-size: 10px;
+font-family: Indie Flower;
+
 }
