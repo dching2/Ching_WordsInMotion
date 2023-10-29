@@ -4,7 +4,7 @@ body {
 }
 
 p {
-
+    margin-left: 350px;
     font-size: 200px;
 }
 
@@ -22,7 +22,7 @@ nav a:hover {
     color: red;
 }
 
-#Intro {
+#Lean {
 display: flex;
 flex-direction: row;
 align-items: center;
@@ -33,4 +33,28 @@ color: white;
 font-size: 20px;
 font-family: Indie Flower;
 
+animation-name: Lean;
+animation-delay: 0.1s;
+animation-duration: 5s;
+animation-fill-mode: forwards;
+animation-iteration-count: 1;
+animation-timing-function: ease-in-out;
 }
+
+
+
+
+
+@keyframes Lean {
+    from {
+        margin-left: 100%;
+        font-size: 0;
+    }
+    to {
+        margin-right: 0%;
+        font-size: 200px;
+    }
+}
+
+
+
