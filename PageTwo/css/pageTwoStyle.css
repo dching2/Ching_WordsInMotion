@@ -4,14 +4,14 @@ body {
 }
 
 p {
-
+    margin-left: 200px;
     font-size: 100px;
 }
 
 a {
     font-family: "Indie Flower";
     margin-left: 200px;
-    font-size: 200px;
+    font-size: 300px;
 }
 
 nav a:link {
@@ -20,8 +20,11 @@ nav a:link {
 
 nav a:hover {
     color: white;
-    transform: scale(2,3);
+    
 }
+
+
+
 
 #Strong {
 display: flex;
@@ -48,6 +51,7 @@ animation-timing-function: ease-in;
         top: 42vh;
         left: 37vw;
         transform: rotate(0deg);
+        
     }
     to {
         top: 95vh;
