@@ -19,7 +19,7 @@ nav a:link {
 }
 
 nav a:hover {
-    color: purple;
+    color: blue;
 }
 
 #Friend {
@@ -33,4 +33,24 @@ color: white;
 font-size: 10px;
 font-family: Indie Flower;
 
+animation-name: Friend;
+animation-delay: 0.5s;
+animation-duration: 5s;
+animation-fill-mode: both;
+animation-iteration-count: 1;
+animation-timing-function: ease-in;
+}
+
+@keyframes Friend {
+    from {
+        top: 42vh;
+        left: 37vw;
+        transform: rotate(720deg);
+    }
+    to {
+        top: 95vh;
+        left: 39vw;
+        transform: rotate(0deg);
+
+    }
 }
