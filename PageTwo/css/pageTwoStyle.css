@@ -48,15 +48,16 @@ animation-timing-function: ease-in;
 
 @keyframes Strong {
     from {
+        top: 95vh;
+        left: 39vw;
+       
+        transform: rotate(20deg);
+    }
+    to {
         top: 42vh;
         left: 37vw;
         transform: rotate(0deg);
-    }
-    to {
-        top: 95vh;
-        left: 39vw;
-        transform: rotate(20deg);
-
+       
     }
 
 }
